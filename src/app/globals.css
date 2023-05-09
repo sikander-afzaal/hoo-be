@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.splide {
+  padding-bottom: 50px;
+}
+.splide__pagination__page.is-active {
+  transform: none !important;
+  background-color: #78c4cb !important;
+}
+.splide__pagination__page {
+  background-color: #f6f6f6 !important;
+  width: 8px !important;
+  height: 8px !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
+.splide__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
